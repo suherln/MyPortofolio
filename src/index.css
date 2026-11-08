@@ -1,0 +1,197 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/newsreader/opsz.css";
+
+@theme static {
+  --font-sans: "Geist Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Newsreader Variable", "Iowan Old Style", Georgia, serif;
+
+  --color-canvas: #12171d;
+  --color-surface: #171d25;
+  --color-raised: #1e2530;
+  --color-line: #28303b;
+  --color-line-strong: #3a4455;
+  --color-fg: #e8eaee;
+  --color-muted: #a3abb8;
+  --color-subtle: #8791a0;
+  --color-accent: #8fb7e8;
+
+  --text-display: clamp(2.75rem, 6.4vw, 5rem);
+  --text-display--line-height: 1.04;
+  --text-display--letter-spacing: -0.028em;
+  --text-title: clamp(2.125rem, 3.8vw, 2.875rem);
+  --text-title--line-height: 1.12;
+  --text-title--letter-spacing: -0.02em;
+  --text-lead: clamp(1.25rem, 2.1vw, 1.5rem);
+  --text-lead--line-height: 1.5;
+  --text-heading: 1.5rem;
+  --text-heading--line-height: 1.2;
+  --text-heading--letter-spacing: -0.015em;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--color-canvas);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent) 32%, transparent);
+    color: var(--color-fg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  a[href],
+  button:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+
+  .panel {
+    @apply rounded-xl border border-line bg-gradient-to-b from-raised/70 to-surface/70 shadow-lg shadow-black/25;
+  }
+
+  .btn {
+    @apply inline-flex h-10 items-center justify-center gap-2 rounded-md border border-transparent px-4 text-sm font-medium whitespace-nowrap transition duration-150 active:translate-y-px;
+  }
+
+  .btn-sm {
+    @apply h-9 px-3.5;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-canvas shadow-sm shadow-black/30 hover:bg-[#b4d0f1] hover:shadow-[0_0_26px_-4px_rgba(143,183,232,0.55)];
+  }
+
+  .btn-secondary {
+    @apply border-line-strong bg-raised/60 text-fg hover:border-accent hover:bg-raised hover:text-accent;
+  }
+
+  .btn-icon {
+    @apply inline-flex h-10 w-10 items-center justify-center rounded-full border border-line-strong bg-raised/60 text-fg transition duration-150 hover:border-accent hover:bg-raised hover:text-accent active:translate-y-px;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full border border-line-strong px-3.5 py-1.5 text-sm text-muted transition duration-150 hover:border-accent hover:text-fg;
+  }
+
+  .chip[aria-pressed='true'] {
+    @apply border-accent bg-accent/12 text-fg;
+  }
+
+  .text-link {
+    @apply inline-flex items-center gap-1.5 text-accent underline decoration-accent/50 underline-offset-4 transition-colors hover:decoration-accent;
+  }
+
+  .field {
+    @apply w-full rounded-md border border-line-strong bg-canvas px-3.5 py-2.5 text-sm text-fg transition-colors placeholder:text-subtle hover:border-muted focus:border-accent focus:outline-none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-canvas);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-line-strong);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: var(--d, 0ms);
+}
+
+.modal-overlay {
+  animation: fade 0.18s ease-out;
+}
+
+.modal-panel {
+  animation: pop 0.24s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .modal-overlay,
+  .modal-panel {
+    animation: none;
+  }
+}
