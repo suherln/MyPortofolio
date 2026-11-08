@@ -116,7 +116,14 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
 
                 <h3 className="mt-6 font-serif text-heading text-fg">{project.title}</h3>
                 <p className="mt-1 text-sm text-subtle">{project.projectType}</p>
-                <p className="mt-4 line-clamp-2 max-w-[44ch] text-[0.95rem] text-muted">{project.description}</p>
+                <div className="mt-5 w-full border-t border-line pt-4">
+                  <h4 className="font-serif text-lg tracking-tight text-fg">Measurable Outcome</h4>
+                  <ul className="mt-3 w-full list-disc space-y-1.5 pl-5 text-left text-[0.95rem] text-muted marker:text-subtle">
+                    {project.results.map((result) => (
+                      <li key={result}>{result}</li>
+                    ))}
+                  </ul>
+                </div>
 
                 <div className="mt-auto flex flex-wrap items-center justify-center gap-2 pt-6">
                   <button
@@ -125,7 +132,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
                     aria-label={`View ${project.title} case study`}
                     className="btn btn-primary btn-sm after:absolute after:inset-0 after:content-['']"
                   >
-                    View case study
+                    Project Detail
                   </button>
                   {hasLink(project.links.github) && (
                     <a
@@ -136,7 +143,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
                       aria-label={`${project.title} on GitHub`}
                     >
                       <Github className="h-4 w-4" />
-                      GitHub
+                      Source Code
                       <ArrowUpRight className="h-3.5 w-3.5 text-subtle" />
                     </a>
                   )}

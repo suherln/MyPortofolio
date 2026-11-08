@@ -65,22 +65,22 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             )}
           </header>
 
-          <Block title="Overview">
+          <Block title="Project Description">
             <p className="text-muted">{project.description}</p>
           </Block>
 
-          <Block title="Results">
-            <ul className="list-disc space-y-2.5 pl-5 text-fg/90 marker:text-subtle">
-              {project.results.map((result) => (
-                <li key={result}>{result}</li>
+          <Block title="Key Responsibilities">
+            <ul className="list-disc space-y-2.5 pl-5 text-muted marker:text-subtle">
+              {project.keyResponsibilities.map((item) => (
+                <li key={item}>{item}</li>
               ))}
             </ul>
           </Block>
 
-          <Block title="Responsibilities">
-            <ul className="list-disc space-y-2.5 pl-5 text-muted marker:text-subtle">
-              {project.keyResponsibilities.map((item) => (
-                <li key={item}>{item}</li>
+          <Block title="Measurable Outcomes">
+            <ul className="list-disc space-y-2.5 pl-5 text-fg/90 marker:text-subtle">
+              {project.results.map((result) => (
+                <li key={result}>{result}</li>
               ))}
             </ul>
           </Block>
