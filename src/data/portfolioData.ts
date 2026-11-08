@@ -50,7 +50,7 @@ export interface Education {
 export interface Experience {
   organization: string;
   role: string;
-  category: 'leadership' | 'program';
+  category: 'leadership' | 'program' | 'recognition';
   note: string;
   location: string;
   startDate: string;
@@ -269,6 +269,23 @@ export const portfolioData: PortfolioData = {
   ],
   experience: [
     {
+      organization: "Kementrian Kooperasi",
+      role: "Top 100 teams across Indonesia",
+      category: "recognition",
+      note: "Hackathon Digital Cooperatives Expo 2026",
+      location: "Jakarta, Indonesia",
+      startDate: "July 2025",
+      endDate: "July 2025",
+      duration: "1 day",
+      description: [
+        "Addressed core accessibility and attention problems through EDA, identifying a critical 24% vs. 76% gap in account ownership across 71,270 members nationwide",
+        "Designed for UU PDP compliance and alignment with 4 regulations (Inpres 9/2025, SE Menkop 1/2015, UU 11/2020, draft RUU Perkoperasian).",
+        "Architected a dual-agent framework (Text + Voice) to deliver accessible, multimodal user support.",
+        "Created an integrated super app bridging the digital divide for elderly cooperative members",
+        "Implemented zero hallucination RAG for strict statutory cooperative balance sheet transparency",
+      ]
+    },
+    {
       organization: "Dicoding Indonesia",
       role: "Student of Intensive Coding Camp 2026",
       category: "program",
@@ -283,6 +300,40 @@ export const portfolioData: PortfolioData = {
         "Passed all course and training assessments with zero remedials or retakes",
         "Implemented learnings into a capstone project and earning a 93/100 final score",
         "Graduated with an average of 88.56/100 across 934 learning hours"
+      ]
+    },
+    {
+      organization: "Universitas Udayana",
+      role: "Top 10 Finalist of ICT Business Case Competition",
+      category: "recognition",
+      note: "IT Creative Competition 2025",
+      location: "Jakarta, Indonesia",
+      startDate: "October 2025",
+      endDate: "November 2025",
+      duration: "1 month",
+      description: [
+        "Validated market demand through survey showing 71.79% of respondents rate digital security as critically important",
+        "Identified game interactive format as most preferred learning method at 38.46%",
+        "Identified leaderboard and competition as most attractive gamification feature at 58.97%",
+        "Projected break-even point in the first year with surplus of Rp148.500.000",
+        "Proposed accessible pricing at Rp30.000–Rp40.000 per month, substantially cheaper than international alternatives"
+      ]
+    },
+    {
+      organization: "AIESEC in BINUS",
+      role: "Local Committee Vice President of Program and Delegates",
+      category: "leadership",
+      note: "Youth Career Compass 2026",
+      location: "Jakarta, Indonesia",
+      startDate: "March 2025",
+      endDate: "July 2025",
+      duration: "5 months",
+      description: [
+        "Led a 3-person team",
+        "Coordinated across 5 cross-functional teams",
+        "Coordinated with Grab through 2 virtual meetings and continuous chat correspondence",
+        "Nurtured 164 participants in a group chat to maintain engagement",
+        "Nurtured 101 on-site participants, achieving a 9.5/10 NPS score",
       ]
     },
     {
@@ -302,23 +353,6 @@ export const portfolioData: PortfolioData = {
         "Nurtured 3 participants abroad, achieving a 9.8/10 satisfaction score",
         "Fulfilled 100% of AIESEC Exchange Standards set by AIESEC International",
         "Passed all ECB audits with zero sanctions"
-      ]
-    },
-    {
-      organization: "AIESEC in BINUS",
-      role: "Local Committee Vice President of Program and Delegates",
-      category: "leadership",
-      note: "Youth Career Compass 2026",
-      location: "Jakarta, Indonesia",
-      startDate: "March 2025",
-      endDate: "July 2025",
-      duration: "5 months",
-      description: [
-        "Led a 3-person team",
-        "Coordinated across 5 cross-functional teams",
-        "Coordinated with Grab through 2 virtual meetings and continuous chat correspondence",
-        "Nurtured 164 participants in a group chat to maintain engagement",
-        "Nurtured 101 on-site participants, achieving a 9.5/10 NPS score",
       ]
     },
     {
@@ -592,6 +626,7 @@ export const portfolioData: PortfolioData = {
         "Helped define team structure and operational role descriptions"
       ],
       results: [
+        "Achieved Top 10 finalist in the ICT Business Idea Competition",
         "Validated market demand through survey showing 71.79% of respondents rate digital security as critically important",
         "Identified game interactive format as most preferred learning method at 38.46%",
         "Identified leaderboard and competition as most attractive gamification feature at 58.97%",
@@ -630,9 +665,11 @@ export const portfolioData: PortfolioData = {
       ],
       results: [
         "Featured in Hackathon Digital Cooperatives Expo 2026 as Top 100 Finalist",
-        "Delivered a dual agent architecture (Text Agent + Voice Agent) serving cooperative members and management",
-        "Implemented zero-hallucination RAG for strict statutory cooperative balance sheet transparency",
-        "Created an integrated super app bridging the digital divide for elderly cooperative members"
+        "Addressed core accessibility and attention problems through EDA, identifying a critical 24% vs. 76% gap in account ownership across 71,270 members nationwide",
+        "Designed for UU PDP compliance and alignment with 4 regulations (Inpres 9/2025, SE Menkop 1/2015, UU 11/2020, draft RUU Perkoperasian).",
+        "Architected a dual-agent framework (Text + Voice) to deliver accessible, multimodal user support.",
+        "Created an integrated super app bridging the digital divide for elderly cooperative members",
+        "Implemented zero hallucination RAG for strict statutory cooperative balance sheet transparency",
       ],
       links: {
         github: KopTrustAI_Github,

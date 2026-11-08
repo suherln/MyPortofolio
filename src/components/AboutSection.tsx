@@ -62,7 +62,7 @@ export const AboutSection: React.FC = () => {
         {principles.map((item) => (
           <li key={item.title} className="panel p-6">
             <h3 className="font-serif text-xl tracking-tight text-fg">{item.title}</h3>
-            <p className="mt-3 text-[0.95rem] text-muted">{item.description}</p>
+            <p className="mt-3 text-[0.90rem] text-muted">{item.description}</p>
           </li>
         ))}
       </ul>
