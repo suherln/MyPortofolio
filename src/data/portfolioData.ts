@@ -144,12 +144,12 @@ export const portfolioData: PortfolioData = {
       address: "Jl. Bendungan Hilir No.124, RT.13/RW.6, Bend. Hilir, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta"
     },
     summary: [
-      "A driven, detail-oriented Computer Science undergraduate with a strong focus on Artificial Intelligence, Machine Learning, and data analysis. Experienced in data preprocessing, feature engineering, and developing intelligent systems that transform raw data into actionable insights. Combines a solid technical foundation with systems thinking to bridge business problems with data and AI solutions.",
-      "Experience includes cross-functional collaboration in event operations, administration, strategic planning, and data management. Comfortable coordinating diverse teams, engaging external stakeholders, and designing structured systems that improve efficiency and scalability. Has rebuilt processes into streamlined pipelines and sustainable workflows, supporting organizational growth through improved delivery, regulatory compliance, and interdepartmental collaboration.",
-      "Believes in aligning technical excellence with clear communication and shared goals. Naturally curious with a deep interest in understanding underlying systems and how they connect to real business needs. Open to meaningful collaborations in AI, machine learning, data analysis, and data-driven innovation to build impactful, sustainable solutions."
+      "A driven, detail-oriented Computer Science undergraduate with a strong focus on Artificial Intelligence, Machine Learning, and data analysis. Experienced in data preprocessing, feature engineering, and developing intelligent systems that transform raw data into actionable insights. Combines a solid technical foundation with systems thinking to bridge business problems with data and AI solutions",
+      "Experience includes cross-functional collaboration in event operations, administration, strategic planning, and data management. Comfortable coordinating diverse teams, engaging external stakeholders, and designing structured systems that improve efficiency and scalability. Has rebuilt processes into streamlined pipelines and sustainable workflows, supporting organizational growth through improved delivery, regulatory compliance, and interdepartmental collaboration",
+      "Believes in aligning technical excellence with clear communication and shared goals. Naturally curious with a deep interest in understanding underlying systems and how they connect to real business needs. Open to meaningful collaborations in AI, machine learning, data analysis, and data-driven innovation to build impactful, sustainable solutions"
     ],
     objective:
-      "Driven Computer Science undergraduate at BINUS Kemanggisan specializing in AI, Machine Learning and Deep Learning, seeking opportunities to build intelligent systems and data-driven solutions. Combines technical foundation with cross-functional leadership and systems thinking to drive measurable impact."
+      "Driven Computer Science undergraduate at BINUS Kemanggisan specializing in AI, Machine Learning and Deep Learning, seeking opportunities to build intelligent systems and data-driven solutions. Combines technical foundation with cross-functional leadership and systems thinking to drive measurable impact"
   },
   skillCategories: [
     {
@@ -278,8 +278,11 @@ export const portfolioData: PortfolioData = {
       endDate: "July 2026",
       duration: "6 months",
       description: [
-        "Followed an advanced curriculum with periodic achievements, gained deep knowledge intensively, applied learnings through a capstone project, and as the AI engineer, coordinated across divisions to ensure smooth and quality development.",
-        "test"
+        "Completed a 6-month intensive AI curriculum alongside a full academic workload",
+        "Progressed through 10/10 courses, from AI fundamentals to building custom deep learning architectures",
+        "Passed all course and training assessments with zero remedials or retakes",
+        "Implemented learnings into a capstone project and earning a 93/100 final score",
+        "Graduated with an average of 88.56/100 across 934 learning hours"
       ]
     },
     {
@@ -291,8 +294,15 @@ export const portfolioData: PortfolioData = {
       startDate: "February 2025",
       endDate: "January 2026",
       duration: "1 year",
-      description:
-        "Managed relationships with international partners, conducted regular calls to maintain communication, matched supply and demand between stakeholders, prepared audit documentation, and guided my team to meet their KPIs while ensuring quality assurance standards."
+      description: [
+        "Led a 3-person team",
+        "Coordinated across 2 cross-functional teams",
+        "Managed 37 international partners (11 Europe, 19 Asia, 7 Middle East/Africa)",
+        "Facilitated and sent 2 participants abroad (Germany, Malaysia), excluding 1 participant from prior-term (Malaysia)",
+        "Nurtured 3 participants abroad, achieving a 9.8/10 satisfaction score",
+        "Fulfilled 100% of AIESEC Exchange Standards set by AIESEC International",
+        "Passed all ECB audits with zero sanctions"
+      ]
     },
     {
       organization: "AIESEC in BINUS",
@@ -303,8 +313,13 @@ export const portfolioData: PortfolioData = {
       startDate: "March 2025",
       endDate: "July 2025",
       duration: "5 months",
-      description:
-        "Planned the event at Grab's office, coordinated facilities with Grab's team, ensured delegates were well managed, and oversaw overall program execution to keep things running smoothly."
+      description: [
+        "Led a 3-person team",
+        "Coordinated across 5 cross-functional teams",
+        "Coordinated with Grab through 2 virtual meetings and continuous chat correspondence",
+        "Nurtured 164 participants in a group chat to maintain engagement",
+        "Nurtured 101 on-site participants, achieving a 9.5/10 NPS score",
+      ]
     },
     {
       organization: "BINUS University",
@@ -315,8 +330,11 @@ export const portfolioData: PortfolioData = {
       startDate: "January 2025",
       endDate: "January 2026",
       duration: "1 year 1 month",
-      description:
-        "Participated in weekly training sessions to build technical skills, competed in external competitions to grow personally while representing BINUS, and supported the computer science club in creating value for the student community."
+      description: [
+        "Participated in weekly training sessions to build technical skills",
+        "Competed in external competitions representing BINUS, driving personal growth",
+        "Supported the computer science club in creating value for the student community"
+      ]
     }
   ],
   projects: [
@@ -334,7 +352,7 @@ export const portfolioData: PortfolioData = {
         label: "Character Error Rate on Validation Data"
       },
       description:
-        "KantongKu is an intelligent web-based financial management platform developed as the capstone project for Coding Camp 2026 powered by DBS Foundation. It combines AI-driven budget allocation with an integrated OCR engine that scans shopping receipts directly from camera/image, automatically extracts transaction items, and deducts expenses from dedicated digital spending pockets. Built with a responsive front-end, RESTful API, and a deep learning model using TensorFlow Functional API.",
+        "KantongKu is an intelligent web-based financial management platform developed as the capstone project for Coding Camp 2026 powered by DBS Foundation. It combines AI-driven budget allocation with an integrated OCR engine that scans shopping receipts directly from camera/image, automatically extracts transaction items, and deducts expenses from dedicated digital spending pockets. Built with a responsive front-end, RESTful API, and a deep learning model using TensorFlow Functional API",
       keyResponsibilities: [
         "Sole AI engineer executing the original project vision as primary implementer",
         "Coordinated with data science division for dataset acquisition and preparation",
@@ -368,7 +386,7 @@ export const portfolioData: PortfolioData = {
         label: "ROC-AUC Score on Test Data"
       },
       description:
-        "Floodium is an ML-based flood early warning and prediction system developed as the final project for the BINUS University Machine Learning course. Utilizing an XGBoost time-series architecture, it forecasts flood occurrence across four high-risk Jakarta regions using real-time meteorological data integrated from the OpenWeatherMap API, accessible via a real-time Streamlit dashboard.",
+        "Floodium is an ML-based flood early warning and prediction system developed as the final project for the BINUS University Machine Learning course. Utilizing an XGBoost time-series architecture, it forecasts flood occurrence across four high-risk Jakarta regions using real-time meteorological data integrated from the OpenWeatherMap API, accessible via a real-time Streamlit dashboard",
       keyResponsibilities: [
         "Brainstormed with team members to align project direction with research paper references and compliance requirements",
         "Oversaw project workflow from EDA, preprocessing, feature engineering, training, to model saving and experimentation",
@@ -377,8 +395,8 @@ export const portfolioData: PortfolioData = {
         "Defined out-of-scope items and MVP boundaries to maintain rigorous delivery"
       ],
       results: [
-        "Deployed accessible early flood awareness system via Streamlit",
-        "Performed custom feature engineering to optimize model performance despite dataset limitations",
+        "XG-Boost Model achieved 0.8442 score on test dataset",
+        "Performed custom feature engineering to optimize model performance despite dataset limitations (imbalance class)",
         "Predicted flood occurrence across four Jakarta regions using real-time weather data"
       ],
       links: {
@@ -401,7 +419,7 @@ export const portfolioData: PortfolioData = {
         label: "Accuracy on Test Data"
       },
       description:
-        "TaherAI is a natural language processing solution developed for the BINUS University NLP course, integrating with the YouTube Data API v3 to automate sentiment analysis across thousands of viewer comments. It provides content creators and analytics teams with instant audience reception insights and polarity distribution.",
+        "TaherAI is a natural language processing solution developed for the BINUS University NLP course, integrating with the YouTube Data API v3 to automate sentiment analysis across thousands of viewer comments. It provides content creators and analytics teams with instant audience reception insights and polarity distribution",
       keyResponsibilities: [
         "Brainstormed with team members to align project direction with research paper references and compliance requirements",
         "Oversaw project workflow from EDA, tokenization, text normalization, tf-idf, to model evaluation",
@@ -410,9 +428,10 @@ export const portfolioData: PortfolioData = {
         "Defined out-of-scope items and MVP boundaries to maintain high inference velocity"
       ],
       results: [
+        "Benchmarked 14 experimental models, selecting Logistic Regression with TF-IDF as the best performer",
+        "Best model achieved 0.8284 accuracy on test dataset",
         "Evaluated multiple classification models with Logistic Regression selected and tuned as the best performer",
-        "Integrated YouTube API for automated sentiment analysis with real-time comment fetching",
-        "Helped content creators and viewers assess video reception and engagement quality objectively"
+        "Integrated YouTube API for automated sentiment analysis with real-time comment fetching"
       ],
       links: {
         github: TaherAI_Github,
@@ -434,7 +453,7 @@ export const portfolioData: PortfolioData = {
         label: "Bounding Box Precision on LaPa Dataset"
       },
       description:
-        "Academic research paper developed for the Research and Methodology subject at BINUS University. Evaluates state-of-the-art lightweight deep learning architectures for driver drowsiness detection with an emphasis on low-power vehicle embedded hardware deployment. Evaluated YOLOv8n pose against competing architectures, achieving near-perfect landmark precision while maintaining true real-time inference speed.",
+        "Academic research paper developed for the Research and Methodology subject at BINUS University. Evaluates state-of-the-art lightweight deep learning architectures for driver drowsiness detection with an emphasis on low-power vehicle embedded hardware deployment. Evaluated YOLOv8n pose against competing architectures, achieving near-perfect landmark precision while maintaining true real-time inference speed",
       keyResponsibilities: [
         "Contributed baseline ideas and core concepts for the research hypothesis",
         "Gathered references and critically reviewed relevant automotive computer vision literature with co-authors",
@@ -445,7 +464,6 @@ export const portfolioData: PortfolioData = {
         "Ensured research progress remained on track throughout academic milestones"
       ],
       results: [
-        "Identified YOLOv8n pose as the most practical model for vehicle embedded hardware deployment",
         "Achieved bounding box mAP@50 of 0.995 on the LaPa facial landmark dataset",
         "Achieved pose estimation mAP@50-95 of 0.98 to 0.99 on the LaPa dataset",
         "Maintained real-time 30+ FPS speed on edge targets, demonstrating model efficiency outweighs raw parameter count"
@@ -470,7 +488,7 @@ export const portfolioData: PortfolioData = {
         label: "Outperformed Baseline by $408"
       },
       description:
-        "Advanced deep learning project for Coding Camp 2026 by Dicoding powered by DBS Foundation. Developed a multivariate multi-horizon Bitcoin price forecasting architecture using custom TensorFlow Functional API components. Compared an LSTM baseline with attention against an encoder-decoder Seq2Seq LSTM with teacher forcing and custom layers, achieving superior convergence and low error over a 24-hour horizon.",
+        "Advanced deep learning project for Coding Camp 2026 by Dicoding powered by DBS Foundation. Developed a multivariate multi-horizon Bitcoin price forecasting architecture using custom TensorFlow Functional API components. Compared an LSTM baseline with attention against an encoder-decoder Seq2Seq LSTM with teacher forcing and custom layers, achieving superior convergence and low error over a 24-hour horizon",
       keyResponsibilities: [
         "Built LSTM baseline and Seq2Seq LSTM with teacher forcing using Functional API for 24-step forecasting",
         "Developed custom Dense, Dropout, and Layer Normalization layers from scratch",
@@ -501,7 +519,7 @@ export const portfolioData: PortfolioData = {
       category: "leadership",
       categoryLabel: "Leadership and Business Modelling",
       description:
-        "Youth Career Compass 2026 is a youth career event run by AIESEC in BINUS. As Local Committee Vice President of Program and Delegates, the role involved planning the event at Grab's office, coordinating facilities with Grab's team, ensuring delegates were well managed, and overseeing overall program execution to keep things running smoothly.",
+        "Youth Career Compass 2026 is a youth career event run by AIESEC in BINUS. As Local Committee Vice President of Program and Delegates, the role involved planning the event at Grab's office, coordinating facilities with Grab's team, ensuring delegates were well managed, and overseeing overall program execution to keep things running smoothly",
       keyResponsibilities: [
         "Planned the event at Grab's office",
         "Coordinated facilities with Grab's team",
@@ -509,8 +527,11 @@ export const portfolioData: PortfolioData = {
         "Oversaw overall program execution to keep things running smoothly"
       ],
       results: [
-        "Delivered the event program at Grab's office",
-        "Kept facilities, delegates, and the program running smoothly through close coordination with Grab's team"
+        "Led a 3-person team",
+        "Coordinated across 5 cross-functional teams",
+        "Coordinated with Grab through 2 virtual meetings and continuous chat correspondence",
+        "Nurtured 164 participants in a group chat to maintain engagement",
+        "Nurtured 101 on-site participants, achieving a 9.5/10 NPS score"
       ],
       links: {},
       technologies: ["Event Management", "Program Management", "Stakeholder Management", "Strategic Planning", "Team Management"]
@@ -525,7 +546,7 @@ export const portfolioData: PortfolioData = {
       category: "leadership",
       categoryLabel: "Leadership and Business Modelling",
       description:
-        "Global Talent is an international talent exchange program run by AIESEC in BINUS. As Team Leader of International Relations and Quality Assurance, the role involved managing relationships with international partners, conducting regular calls to maintain communication, matching supply and demand between stakeholders, preparing audit documentation, and guiding the team to meet KPIs while ensuring quality assurance standards.",
+        "Global Talent is an international talent exchange program run by AIESEC in BINUS. As Team Leader of International Relations and Quality Assurance, the role involved managing relationships with international partners, conducting regular calls to maintain communication, matching supply and demand between stakeholders, preparing audit documentation, and guiding the team to meet KPIs while ensuring quality assurance standards",
       keyResponsibilities: [
         "Managed relationships with international partners",
         "Conducted regular calls to maintain communication",
@@ -534,8 +555,13 @@ export const portfolioData: PortfolioData = {
         "Guided my team to meet their KPIs while ensuring quality assurance standards"
       ],
       results: [
-        "Maintained steady communication with international partners through regular calls",
-        "Helped the team meet its KPIs while upholding quality assurance standards"
+        "Led a 3-person team",
+        "Coordinated across 2 cross-functional teams",
+        "Managed 37 international partners (11 Europe, 19 Asia, 7 Middle East/Africa)",
+        "Facilitated and sent 2 participants abroad (Germany, Malaysia), excluding 1 participant from prior-term (Malaysia)",
+        "Nurtured 3 participants abroad, achieving a 9.8/10 satisfaction score",
+        "Fulfilled 100% of AIESEC Exchange Standards set by AIESEC International",
+        "Passed all ECB audits with zero sanctions"
       ],
       links: {},
       technologies: ["International Relations", "Quality Assurance", "Stakeholder Management", "Team Management", "Audit Documentation"]
@@ -554,7 +580,7 @@ export const portfolioData: PortfolioData = {
         label: "Validated Digital Security Demand"
       },
       description:
-        "Game-based cybersecurity education platform tailored for Generation Z, conceptualized for the ICT Business Idea Competition (ITCC) 2025 at Universitas Udayana (Remote). CleverCy transforms complex threat analysis and cyber defense training into an interactive adventure with an adaptive AI Mentor, real-world breach simulations, competitive leaderboards, and industry-recognized certifications.",
+        "Game-based cybersecurity education platform tailored for Generation Z, conceptualized for the ICT Business Idea Competition (ITCC) 2025 at Universitas Udayana (Remote). CleverCy transforms complex threat analysis and cyber defense training into an interactive adventure with an adaptive AI Mentor, real-world breach simulations, competitive leaderboards, and industry-recognized certifications",
       keyResponsibilities: [
         "Co-authored the business proposal and product concept for CleverCy",
         "Contributed to market research and quantitative survey analysis of 39 target respondents",
@@ -570,7 +596,6 @@ export const portfolioData: PortfolioData = {
         "Identified game interactive format as most preferred learning method at 38.46%",
         "Identified leaderboard and competition as most attractive gamification feature at 58.97%",
         "Projected break-even point in the first year with surplus of Rp148.500.000",
-        "Designed dual innovation protection for AI Mentor Adaptif and Cyber Threat Simulation Engine",
         "Proposed accessible pricing at Rp30.000–Rp40.000 per month, substantially cheaper than international alternatives"
       ],
       links: {
@@ -593,7 +618,7 @@ export const portfolioData: PortfolioData = {
         label: "LLM with RAG and Speech-to-Text Agents"
       },
       description:
-        "Digital platform developed for the Kemenkop Hackathon 2026 (Digital Cooperatives Expo), addressing the national issue of low public participation and transparency in Indonesian cooperatives. The platform simplifies complex balance sheets, SHU calculations, and RAT meeting minutes through a multifunctional dashboard, an intelligent Indonesian-language AI assistant, and an automated voice-based meeting transcriptor and summarizer.",
+        "Digital platform developed for the Kemenkop Hackathon 2026 (Digital Cooperatives Expo), addressing the national issue of low public participation and transparency in Indonesian cooperatives. The platform simplifies complex balance sheets, SHU calculations, and RAT meeting minutes through a multifunctional dashboard, an intelligent Indonesian-language AI assistant, and an automated voice-based meeting transcriptor and summarizer",
       keyResponsibilities: [
         "Developed the client application using Flutter for responsive cross-platform deployment",
         "Implemented agentic AI with LLM and voice transcription to demystify cooperative financial statements",
@@ -604,10 +629,10 @@ export const portfolioData: PortfolioData = {
         "Designed a multifunctional dashboard for real-time auditability and elderly-accessible navigation"
       ],
       results: [
+        "Featured in Hackathon Digital Cooperatives Expo 2026 as Top 100 Finalist",
         "Delivered a dual agent architecture (Text Agent + Voice Agent) serving cooperative members and management",
         "Implemented zero-hallucination RAG for strict statutory cooperative balance sheet transparency",
-        "Created an integrated super app bridging the digital divide for elderly cooperative members",
-        "Featured in Hackathon Digital Cooperatives Expo 2026 as Top 100 Finalist"
+        "Created an integrated super app bridging the digital divide for elderly cooperative members"
       ],
       links: {
         github: KopTrustAI_Github,

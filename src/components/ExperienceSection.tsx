@@ -26,7 +26,7 @@ export const ExperienceSection: React.FC = () => {
         {visible.map((item) => (
           <li
             key={`${item.organization}-${item.role}`}
-            className="panel grid gap-3 p-6 sm:grid-cols-[13.5rem_1fr] sm:gap-10"
+            className="panel grid gap-3 p-6 sm:grid-cols-[13.5rem_1fr] sm:gap-5"
           >
             <div className="text-sm">
               <p className="text-accent">
@@ -41,19 +41,19 @@ export const ExperienceSection: React.FC = () => {
                 <span className="text-subtle">, {item.note}</span>
               </p>
               {Array.isArray(item.description) ? (
-                <ul className="mt-4 max-w-[58ch] list-disc space-y-1.5 pl-5 text-[0.95rem] text-muted marker:text-subtle">
+                <ul className="mt-4 max-w-[58ch] list-disc space-y-1.5 pl-5 text-justify text-[0.95rem] text-muted marker:text-subtle">
                   {item.description.map((point) => (
                     <li key={point}>{point}</li>
                   ))}
                 </ul>
               ) : (
-                <p className="mt-4 max-w-[58ch] text-[0.95rem] text-muted">{item.description}</p>
+                <p className="mt-4 max-w-[58ch] text-justify text-[0.95rem] text-muted">{item.description}</p>
               )}
             </div>
           </li>
         ))}
 
-        <li className="panel grid gap-3 p-6 sm:grid-cols-[13.5rem_1fr] sm:gap-10">
+        <li className="panel grid gap-3 p-6 sm:grid-cols-[13.5rem_1fr] sm:gap-5">
           <div className="text-sm">
             <p className="text-accent">
               {edu.startDate} to {edu.endDate}

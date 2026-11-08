@@ -10,7 +10,7 @@ interface ProjectModalProps {
 }
 
 const Block: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
-  <section className="mx-auto max-w-[62ch] space-y-4">
+  <section className="mx-auto max-w-[62ch] space-y-4 text-justify">
     <h3 className="text-center font-serif text-xl tracking-tight text-fg">{title}</h3>
     {children}
   </section>
@@ -77,7 +77,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             </ul>
           </Block>
 
-          <Block title="Measurable Outcomes">
+          <Block title="Project Outcomes">
             <ul className="list-disc space-y-2.5 pl-5 text-fg/90 marker:text-subtle">
               {project.results.map((result) => (
                 <li key={result}>{result}</li>
