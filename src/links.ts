@@ -19,4 +19,4 @@ export const CleverCy_Link: string = "https://www.canva.com/design/DAG3V-390cQ/2
 export const CleverCy_Github: string = "";
 
 export const KopTrustAI_Link: string = "https://drive.google.com/file/d/1z_GnBulU9AIdrBVrI3u5kg2gG46xM-V6/view?usp=sharing";
-export const KopTrustAI_Github: string = "";
+export const KopTrustAI_Github: string = "https://github.com/orgs/KopTrustAI/repositories";
