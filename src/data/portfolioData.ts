@@ -132,8 +132,8 @@ export const portfolioData: PortfolioData = {
   profile: {
     name: "Muhammad Rafli Suherlan",
     headline: "Computer Science Undergraduate at BINUS specializing in AI, Machine Learning, and Deep Learning",
-    tagline: "Computer Science Undergraduate at BINUS, Passionate learner in AI, ML, and Deep Learning",
-    location: "West Jakarta, Jakarta, Indonesia",
+    tagline: "Computer Science Undergraduate at BINUS, Bridging Business Problems with Data and AI Solutions",
+    location: "Central Jakarta, Jakarta, Indonesia",
     contact: {
       phone: "+62 813-1536-8518",
       personalEmail: "raflisuherlan593@gmail.com",
@@ -144,9 +144,9 @@ export const portfolioData: PortfolioData = {
       address: "Jl. Bendungan Hilir No.124, RT.13/RW.6, Bend. Hilir, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta"
     },
     summary: [
-      "A driven, detail-oriented Computer Science undergraduate with a strong focus on Artificial Intelligence and Machine Learning. Passionate about developing intelligent systems, optimizing workflows, and transforming data into actionable insights that drive measurable impact.",
-      "Experience includes project leadership and cross-functional collaboration in event operations, administration, strategic planning, and data management. Proven ability to coordinate diverse teams, engage external stakeholders, and design structured systems that enhance efficiency and scalability. Known for rebuilding processes to create streamlined pipelines and sustainable workflows. Combines a solid technical foundation with systems thinking to support organizational growth through improved delivery, regulatory compliance, and interdepartmental collaboration.",
-      "Believes in aligning technical excellence with clear communication and shared goals. Naturally curious with a deep interest in understanding underlying systems. Volunteering experience has cultivated empathy, humility, and a people-centered leadership style that strengthens both professional and community engagements. Open to meaningful collaborations in AI, machine learning, and data-driven innovation to build impactful, sustainable solutions."
+      "A driven, detail-oriented Computer Science undergraduate with a strong focus on Artificial Intelligence, Machine Learning, and data analysis. Experienced in data preprocessing, feature engineering, and developing intelligent systems that transform raw data into actionable insights. Combines a solid technical foundation with systems thinking to bridge business problems with data and AI solutions.",
+      "Experience includes cross-functional collaboration in event operations, administration, strategic planning, and data management. Comfortable coordinating diverse teams, engaging external stakeholders, and designing structured systems that improve efficiency and scalability. Has rebuilt processes into streamlined pipelines and sustainable workflows, supporting organizational growth through improved delivery, regulatory compliance, and interdepartmental collaboration.",
+      "Believes in aligning technical excellence with clear communication and shared goals. Naturally curious with a deep interest in understanding underlying systems and how they connect to real business needs. Open to meaningful collaborations in AI, machine learning, data analysis, and data-driven innovation to build impactful, sustainable solutions."
     ],
     objective:
       "Driven Computer Science undergraduate at BINUS Kemanggisan specializing in AI, Machine Learning and Deep Learning, seeking opportunities to build intelligent systems and data-driven solutions. Combines technical foundation with cross-functional leadership and systems thinking to drive measurable impact."
@@ -324,7 +324,7 @@ export const portfolioData: PortfolioData = {
       imageName: "kantongku.png",
       yearAccomplished: "June 2026",
       role: "Artificial Intelligence Engineer",
-      projectType: "Web-based Financial Management Platform",
+      projectType: "Financial Management Platform with Receipt Scanning Feature",
       category: "computer-vision",
       categoryLabel: "Computer Vision",
       highlightMetric: {
@@ -358,7 +358,7 @@ export const portfolioData: PortfolioData = {
       imageName: "floodium.png",
       yearAccomplished: "April 2026",
       role: "Lead Machine Learning Engineer",
-      projectType: "Machine Learning-based Flood Prediction System",
+      projectType: "Flood Prediction Platform using Machine Learning Approaches",
       category: "time-series",
       categoryLabel: "Time-Series Forecasting",
       highlightMetric: {
@@ -391,7 +391,7 @@ export const portfolioData: PortfolioData = {
       imageName: "taherai.png",
       yearAccomplished: "June 2026",
       role: "Lead Machine Learning Engineer",
-      projectType: "YouTube Sentiment Analyzer",
+      projectType: "YouTube Sentiment Analyzer using Machine Learning Approaches",
       category: "nlp-llm",
       categoryLabel: "NLP/LLM and LLM",
       highlightMetric: {
@@ -424,7 +424,7 @@ export const portfolioData: PortfolioData = {
       imageName: "researchpaper.png",
       yearAccomplished: "In Progress (95%)",
       role: "Lead Researcher",
-      projectType: "Research Paper",
+      projectType: "Optimizing the Accuracy-to-Computation Trade-off in Driver Drowsiness Detection Models",
       category: "computer-vision",
       categoryLabel: "Computer Vision",
       highlightMetric: {
@@ -460,7 +460,7 @@ export const portfolioData: PortfolioData = {
       imageName: "timeseriesforecasting.png",
       yearAccomplished: "April 2026",
       role: "Solo Experiment",
-      projectType: "Bitcoin Price Forecasting System",
+      projectType: "Predicting Bitcoin Price with a Custom Deep Learning Approach",
       category: "time-series",
       categoryLabel: "Time-Series Forecasting",
       highlightMetric: {
@@ -495,7 +495,7 @@ export const portfolioData: PortfolioData = {
       imageName: "youthcareercompass.png",
       yearAccomplished: "2025",
       role: "Local Committee Vice President of Program and Delegates",
-      projectType: "Youth Career Event Program",
+      projectType: "Youth Career Seminar in Partnership with PT Grab Teknologi Indonesia",
       category: "leadership",
       categoryLabel: "Leadership and Business Modelling",
       description:
@@ -544,7 +544,7 @@ export const portfolioData: PortfolioData = {
       imageName: "clevercy.png",
       yearAccomplished: "2025",
       role: "Team Member and Co-Author",
-      projectType: "Game-based Cybersecurity Education Platform",
+      projectType: "Business Modeling for Indonesia's Cybersecurity Challenges",
       category: "leadership",
       categoryLabel: "Leadership and Business Modelling",
       highlightMetric: {
@@ -583,7 +583,7 @@ export const portfolioData: PortfolioData = {
       imageName: "koptrustai.png",
       yearAccomplished: "2026",
       role: "AI Engineer and Developer",
-      projectType: "AI-powered Cooperative Financial Transparency Platform",
+      projectType: "Agentic AI Superapp for the Cooperatives Transparency Challenge",
       category: "nlp-llm",
       categoryLabel: "NLP/LLM and Speech Recognition",
       highlightMetric: {

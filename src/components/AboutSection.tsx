@@ -5,19 +5,19 @@ import { Section } from './Section';
 
 const principles = [
   {
-    title: 'Models built from scratch',
+    title: 'Ground-Up Data Analysis',
     description:
-      'Custom neural network layers, custom loss functions with tf.GradientTape, Seq2Seq with teacher forcing, and OCR engines built without relying on black-box APIs.'
+      'Building models and data pipelines from first principles, without relying on black-box APIs or pre-built solutions.'
   },
   {
-    title: 'Production systems thinking',
+    title: 'Algorithmic Problem Solving',
     description:
-      'Taking machine learning research into production microservices with FastAPI, Docker, and responsive frontends designed for real-world adoption.'
+      'Applying algorithmic thinking to search for optimal solutions, from research prototypes to production-ready systems.'
   },
   {
-    title: 'Cross-functional leadership',
+    title: 'Collaborative and International Exposure',
     description:
-      "Directing international relations at AIESEC in BINUS, organizing events hosted at Grab's headquarters, and coordinating multi-disciplinary hackathon teams."
+      'Working across borders and disciplines through international organizations, events, and multi-disciplinary team projects.'
   }
 ];
 
@@ -30,7 +30,7 @@ export const AboutSection: React.FC = () => {
     <Section
       id="about"
       title="About"
-      intro="Based in West Jakarta, combining academic computer science foundations with hands-on capstone engineering and cross-border leadership."
+      intro="Based in Greater Jakarta, combining academic computer science foundations with hands-on engineering and stakeholder-oriented problem solving, with a focus on bridging business problems and data AI solutions."
     >
       <div className="mx-auto max-w-[60ch] font-serif text-[1.1875rem] leading-[1.75] text-fg/90">
         <p>{lead}</p>
