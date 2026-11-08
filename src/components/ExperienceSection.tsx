@@ -40,7 +40,15 @@ export const ExperienceSection: React.FC = () => {
                 {item.organization}
                 <span className="text-subtle">, {item.note}</span>
               </p>
-              <p className="mt-4 max-w-[58ch] text-[0.95rem] text-muted">{item.description}</p>
+              {Array.isArray(item.description) ? (
+                <ul className="mt-4 max-w-[58ch] list-disc space-y-1.5 pl-5 text-[0.95rem] text-muted marker:text-subtle">
+                  {item.description.map((point) => (
+                    <li key={point}>{point}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="mt-4 max-w-[58ch] text-[0.95rem] text-muted">{item.description}</p>
+              )}
             </div>
           </li>
         ))}

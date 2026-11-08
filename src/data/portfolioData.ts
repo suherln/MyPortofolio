@@ -56,7 +56,7 @@ export interface Experience {
   startDate: string;
   endDate: string;
   duration: string;
-  description: string;
+  ddescription: string | string[];
 }
 
 export type ProjectCategoryId = 'nlp-llm' | 'computer-vision' | 'time-series' | 'leadership';
@@ -277,8 +277,10 @@ export const portfolioData: PortfolioData = {
       startDate: "February 2026",
       endDate: "July 2026",
       duration: "6 months",
-      description:
-        "Followed an advanced curriculum with periodic achievements, gained deep knowledge intensively, applied learnings through a capstone project, and as the AI engineer, coordinated across divisions to ensure smooth and quality development."
+      description: [
+        "Followed an advanced curriculum with periodic achievements, gained deep knowledge intensively, applied learnings through a capstone project, and as the AI engineer, coordinated across divisions to ensure smooth and quality development.",
+        "test"
+      ]
     },
     {
       organization: "AIESEC in BINUS",
