@@ -10,7 +10,7 @@ interface ProjectModalProps {
 }
 
 const Block: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
-  <section className="mx-auto max-w-[62ch] space-y-4 text-justify">
+  <section className="mx-auto max-w-[62ch] space-y-4">
     <h3 className="text-center font-serif text-xl tracking-tight text-fg">{title}</h3>
     {children}
   </section>

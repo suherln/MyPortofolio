@@ -118,7 +118,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
                 <p className="mt-1 text-sm text-subtle">{project.projectType}</p>
                 <div className="mt-5 w-full border-t border-line pt-4">
                   <h4 className="font-serif text-lg tracking-tight text-fg">Project Outcome</h4>
-                  <ul className="mt-3 w-full list-disc space-y-1.5 pl-5 text-justify text-[0.85rem] text-muted marker:text-subtle">
+                  <ul className="mt-3 w-full list-disc space-y-1.5 pl-5 text-left text-[0.85rem] text-muted marker:text-subtle">
                     {project.results.map((result) => (
                       <li key={result}>{result}</li>
                     ))}

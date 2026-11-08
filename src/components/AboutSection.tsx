@@ -32,7 +32,7 @@ export const AboutSection: React.FC = () => {
       title="About"
       intro="Based in Greater Jakarta, combining academic computer science foundations with hands-on engineering and stakeholder-oriented problem solving, with a focus on bridging business problems and data AI solutions."
     >
-      <div className="mx-auto max-w-[75ch] font-serif text-[1.1875rem] leading-[1.75] text-fg/90 text-justify">
+      <div className="mx-auto max-w-[75ch] font-serif text-[1.1875rem] leading-[1.75] text-fg/90">
         <p>{lead}</p>
         {expanded && (
           <div id="about-more" className="mt-6 space-y-6">
