@@ -652,6 +652,15 @@ export const portfolioData: PortfolioData = {
       verificationCode: "N9ZONRN68XG5"
     },
     {
+      id: "cert-azr-ai",
+      name: "Microsoft Azure AI Fundamental",
+      issuer: "Microsoft",
+      issued: "March 2026",
+      expires: "March 2029",
+      credentialUrl: "https://www.linkedin.com/in/suherlan/overlay/Certifications/1699137480/treasury/?profileId=ACoAAEeYLckBj1U2FQHBxCsFyEzin18IxJHGVdM",
+      verificationCode: "111541121814933/GreatNusa/III/2026"
+    },
+    {
       id: "cert-ml-fund",
       name: "Machine Learning Fundamentals",
       issuer: "Dicoding Indonesia",
