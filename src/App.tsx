@@ -33,9 +33,9 @@ export default function App() {
       <main className="flex-1">
         <Hero />
         <AboutSection />
-        <CredentialsSection />
-        <ProjectsSection onSelectProject={setSelectedProject} />
         <ExperienceSection />
+        <ProjectsSection onSelectProject={setSelectedProject} />
+        <CredentialsSection />
         <SkillsSection onSelectProjectByTitle={selectProjectByTitle} />
         <ContactSection />
       </main>

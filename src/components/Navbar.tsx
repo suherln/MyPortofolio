@@ -6,9 +6,9 @@ import { useActiveSection } from '../hooks/useActiveSection';
 
 const links = [
   { label: 'About', href: '#about' },
-  { label: 'Credentials', href: '#credentials' },
-  { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Credentials', href: '#credentials' },
   { label: 'Skills', href: '#skills' }
 ];
 
