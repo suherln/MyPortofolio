@@ -264,7 +264,7 @@ export const portfolioData: PortfolioData = {
       location: "Jakarta, Indonesia",
       startDate: "September 2024",
       endDate: "June 2028 (Expected)",
-      gpa: "3.22 / 4.00"
+      gpa: "3.18 / 4.00"
     }
   ],
   experience: [
@@ -280,7 +280,7 @@ export const portfolioData: PortfolioData = {
       description: [
         "Addressed core accessibility and attention problems through EDA, identifying a critical 24% vs. 76% gap in account ownership across 71,270 members nationwide",
         "Designed for UU PDP compliance and alignment with 4 regulations (Inpres 9/2025, SE Menkop 1/2015, UU 11/2020, draft RUU Perkoperasian).",
-        "Architected a dual-agent framework (Text + Voice) to deliver accessible, multimodal user support.",
+        "Architected a dual-agent framework (Text and Voice) to deliver accessible, multimodal user support.",
         "Created an integrated super app bridging the digital divide for elderly cooperative members",
         "Implemented zero hallucination RAG for strict statutory cooperative balance sheet transparency",
       ]

@@ -5,7 +5,7 @@ import { Section } from './Section';
 
 const principles = [
   {
-    title: 'Ground-Up Data Analysis',
+    title: 'Ground-Up Data Processing',
     description:
       'Building models and data pipelines from first principles, without relying on black-box APIs or pre-built solutions.'
   },
