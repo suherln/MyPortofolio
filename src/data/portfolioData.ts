@@ -327,7 +327,7 @@ export const portfolioData: PortfolioData = {
       organization: "AIESEC in BINUS",
       role: "Local Committee Vice President of Program and Delegates",
       category: "leadership",
-      note: "Youth Career Compass 2026",
+      note: "Youth Career Compass 2025",
       location: "Jakarta, Indonesia",
       startDate: "March 2025",
       endDate: "July 2025",
@@ -595,7 +595,7 @@ export const portfolioData: PortfolioData = {
       category: "leadership",
       categoryLabel: "Leadership and Business Modelling",
       description:
-        "Youth Career Compass 2026 is a youth career event run by AIESEC in BINUS. As Local Committee Vice President of Program and Delegates, the role involved planning the event at Grab's office, coordinating facilities with Grab's team, ensuring delegates were well managed, and overseeing overall program execution to keep things running smoothly",
+        "Youth Career Compass 2025 is a youth career event run by AIESEC in BINUS. As Local Committee Vice President of Program and Delegates, the role involved planning the event at Grab's office, coordinating facilities with Grab's team, ensuring delegates were well managed, and overseeing overall program execution to keep things running smoothly",
       keyResponsibilities: [
         "Planned the event at Grab's office",
         "Coordinated facilities with Grab's team",
