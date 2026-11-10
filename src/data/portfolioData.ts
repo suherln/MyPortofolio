@@ -297,10 +297,14 @@ export const portfolioData: PortfolioData = {
       description: [
         "Completed a 6-month intensive AI curriculum alongside a full academic workload",
         "Progressed through 10/10 courses, from AI fundamentals to building custom deep learning architectures",
-        "Passed all course and training assessments with zero remedials or retakes",
-        "Implemented learnings into a capstone project and earning a 93/100 final score",
-        "Graduated with an average of 88.56/100 across 934 learning hours"
-      ]
+        "Engineered the dataset for Bitcoin price prediction to ten technical indicators, adding RSI, MACD Histogram, ATR, Log Return, Volume Ratio, and three 24-hour sliding-window features",
+        "Engineered an attention-enhanced multivariate Seq2Seq model for 24-hour Bitcoin price prediction (48-hour input window, 24-hour horizon), achieving $1,053.44 MAE and outperforming the LSTM baseline by $408",
+        "Automated bounding-box and ground-truth label generation for 968 receipts using Tesseract OCR and Python to build the training dataset for a self-developed OCR model",
+        "Engineered an OCR engine with 0.0098 CER (~99.02% character accuracy) on the validation dataset",
+        "Implemented learnings into a capstone project, earning a 93/100 group final score and 90/100 individual final score",
+        "Managed end-to-end deployment with FastAPI and Hugging Face Docker integration",
+        "Graduated with a weighted average of 88.56/100 across 934 learning hours"
+]
     },
     {
       organization: "Universitas Udayana",
