@@ -295,7 +295,7 @@ export const portfolioData: PortfolioData = {
       endDate: "July 2026",
       duration: "6 months",
       description: [
-        "Completed a 6-month intensive AI curriculum alongside a full academic workload",
+        "Completed a 6-month intensive AI curriculum equivalent to 21 SCU alongside a full 21 SCU academic workload",
         "Progressed through 10/10 courses, from AI fundamentals to building custom deep learning architectures",
         "Engineered the dataset for Bitcoin price prediction to ten technical indicators, adding RSI, MACD Histogram, ATR, Log Return, Volume Ratio, and three 24-hour sliding-window features",
         "Engineered an attention-enhanced multivariate Seq2Seq model for 24-hour Bitcoin price prediction (48-hour input window, 24-hour horizon), achieving $1,053.44 MAE and outperforming the LSTM baseline by $408",
