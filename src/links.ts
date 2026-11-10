@@ -1,4 +1,4 @@
-export const CV_LINK: string = "";
+export const CV_LINK: string = "https://drive.google.com/uc?export=download&id=1EpeFWugXGNG4GZeFN2tsJLml0kEIcaQ0";
 
 export const KantongKu_Link: string = "https://drive.google.com/file/d/189a2u7u_E32wVvVy8ezGEGCvKd0hnvmQ/view?usp=sharing";
 export const KantongKu_Github: string = "https://github.com/orgs/KantongKu/repositories";
