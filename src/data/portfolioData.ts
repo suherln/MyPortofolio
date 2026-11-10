@@ -438,7 +438,7 @@ export const portfolioData: PortfolioData = {
         "Featured in Hackathon Digital Cooperatives Expo 2026 as Top 100 Finalist",
         "Addressed core accessibility and attention problems through EDA, identifying a critical 24% vs. 76% gap in account ownership across 71,270 members nationwide",
         "Designed for UU PDP compliance and alignment with 4 regulations (Inpres 9/2025, SE Menkop 1/2015, UU 11/2020, draft RUU Perkoperasian).",
-        "Architected a dual-agent framework (Text + Voice) to deliver accessible, multimodal user support.",
+        "Architected a dual-agent framework (Text and Voice) to deliver accessible, multimodal user support.",
         "Created an integrated super app bridging the digital divide for elderly cooperative members",
         "Implemented zero hallucination RAG for strict statutory cooperative balance sheet transparency",
       ],
@@ -447,6 +447,36 @@ export const portfolioData: PortfolioData = {
         pitchDeck: KopTrustAI_Link
       },
       technologies: ["Flutter", "LLM", "Voice Transcriptor", "Agentic AI", "RAG", "DeepSeek-V4 Flash", "Universal 3.5 Pro", "Firebase", "AssemblyAI"]
+    },
+    {
+      id: "global-talent",
+      title: "Global Talent",
+      imageName: "globaltalent.png",
+      yearAccomplished: "2025 to 2026",
+      role: "Team Leader of International Relations and Quality Assurance",
+      projectType: "International Talent Exchange Program",
+      category: "leadership",
+      categoryLabel: "Leadership and Business Modelling",
+      description:
+        "Global Talent is an international talent exchange program run by AIESEC in BINUS. As Team Leader of International Relations and Quality Assurance, the role involved managing relationships with international partners, conducting regular calls to maintain communication, matching supply and demand between stakeholders, preparing audit documentation, and guiding the team to meet KPIs while ensuring quality assurance standards",
+      keyResponsibilities: [
+        "Managed relationships with international partners",
+        "Conducted regular calls to maintain communication",
+        "Matched supply and demand between stakeholders",
+        "Prepared audit documentation",
+        "Guided my team to meet their KPIs while ensuring quality assurance standards"
+      ],
+      results: [
+        "Led a 3-person team",
+        "Coordinated across 2 cross-functional teams",
+        "Managed 37 international partners (11 Europe, 19 Asia, 7 Middle East/Africa)",
+        "Facilitated and sent 2 participants abroad (Germany, Malaysia), excluding 1 participant from prior-term (Malaysia)",
+        "Nurtured 3 participants abroad, achieving a 9.8/10 satisfaction score",
+        "Fulfilled 100% of AIESEC Exchange Standards set by AIESEC International",
+        "Passed all ECB audits with zero sanctions"
+      ],
+      links: {},
+      technologies: ["International Relations", "Quality Assurance", "Stakeholder Management", "Team Management", "Audit Documentation"]
     },
     {
       id: "floodium",
@@ -611,36 +641,6 @@ export const portfolioData: PortfolioData = {
       ],
       links: {},
       technologies: ["Event Management", "Program Management", "Stakeholder Management", "Strategic Planning", "Team Management"]
-    },
-    {
-      id: "global-talent",
-      title: "Global Talent",
-      imageName: "globaltalent.png",
-      yearAccomplished: "2025 to 2026",
-      role: "Team Leader of International Relations and Quality Assurance",
-      projectType: "International Talent Exchange Program",
-      category: "leadership",
-      categoryLabel: "Leadership and Business Modelling",
-      description:
-        "Global Talent is an international talent exchange program run by AIESEC in BINUS. As Team Leader of International Relations and Quality Assurance, the role involved managing relationships with international partners, conducting regular calls to maintain communication, matching supply and demand between stakeholders, preparing audit documentation, and guiding the team to meet KPIs while ensuring quality assurance standards",
-      keyResponsibilities: [
-        "Managed relationships with international partners",
-        "Conducted regular calls to maintain communication",
-        "Matched supply and demand between stakeholders",
-        "Prepared audit documentation",
-        "Guided my team to meet their KPIs while ensuring quality assurance standards"
-      ],
-      results: [
-        "Led a 3-person team",
-        "Coordinated across 2 cross-functional teams",
-        "Managed 37 international partners (11 Europe, 19 Asia, 7 Middle East/Africa)",
-        "Facilitated and sent 2 participants abroad (Germany, Malaysia), excluding 1 participant from prior-term (Malaysia)",
-        "Nurtured 3 participants abroad, achieving a 9.8/10 satisfaction score",
-        "Fulfilled 100% of AIESEC Exchange Standards set by AIESEC International",
-        "Passed all ECB audits with zero sanctions"
-      ],
-      links: {},
-      technologies: ["International Relations", "Quality Assurance", "Stakeholder Management", "Team Management", "Audit Documentation"]
     },
     {
       id: "clevercy",
