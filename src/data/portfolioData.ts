@@ -407,6 +407,44 @@ export const portfolioData: PortfolioData = {
       technologies: ["TensorFlow Functional API", "OCR", "FastAPI", "Hugging Face Docker", "Python"]
     },
     {
+      id: "koptrust-ai",
+      title: "KopTrust AI",
+      imageName: "koptrustai.png",
+      yearAccomplished: "2026",
+      role: "AI Engineer and Developer",
+      projectType: "Agentic AI Superapp for the Cooperatives Transparency Challenge",
+      category: "nlp-llm",
+      categoryLabel: "NLP/LLM and Speech Recognition",
+      highlightMetric: {
+        value: "Dual-Agentic AI",
+        label: "LLM with RAG and Speech-to-Text Agents"
+      },
+      description:
+        "Digital platform developed for the Kemenkop Hackathon 2026 (Digital Cooperatives Expo), addressing the national issue of low public participation and transparency in Indonesian cooperatives. The platform simplifies complex balance sheets, SHU calculations, and RAT meeting minutes through a multifunctional dashboard, an intelligent Indonesian-language AI assistant, and an automated voice-based meeting transcriptor and summarizer",
+      keyResponsibilities: [
+        "Developed the client application using Flutter for responsive cross-platform deployment",
+        "Implemented agentic AI with LLM and voice transcription to demystify cooperative financial statements",
+        "Analyzed and processed nationwide cooperative databases provided by the Ministry of Cooperatives",
+        "Implemented Retrieval-Augmented Generation (RAG) to eradicate model hallucination on statutory financial figures",
+        "Formulated cost-to-value optimization strategies across DeepSeek-V4 Flash and Universal 3.5 Pro APIs",
+        "Built dual agent architecture comprising specialized Text Agent and Voice Agent",
+        "Designed a multifunctional dashboard for real-time auditability and elderly-accessible navigation"
+      ],
+      results: [
+        "Featured in Hackathon Digital Cooperatives Expo 2026 as Top 100 Finalist",
+        "Addressed core accessibility and attention problems through EDA, identifying a critical 24% vs. 76% gap in account ownership across 71,270 members nationwide",
+        "Designed for UU PDP compliance and alignment with 4 regulations (Inpres 9/2025, SE Menkop 1/2015, UU 11/2020, draft RUU Perkoperasian).",
+        "Architected a dual-agent framework (Text + Voice) to deliver accessible, multimodal user support.",
+        "Created an integrated super app bridging the digital divide for elderly cooperative members",
+        "Implemented zero hallucination RAG for strict statutory cooperative balance sheet transparency",
+      ],
+      links: {
+        github: KopTrustAI_Github,
+        pitchDeck: KopTrustAI_Link
+      },
+      technologies: ["Flutter", "LLM", "Voice Transcriptor", "Agentic AI", "RAG", "DeepSeek-V4 Flash", "Universal 3.5 Pro", "Firebase", "AssemblyAI"]
+    },
+    {
       id: "floodium",
       title: "Floodium",
       imageName: "floodium.png",
@@ -638,44 +676,6 @@ export const portfolioData: PortfolioData = {
         pitchDeck: CleverCy_Link
       },
       technologies: ["Game-based Learning", "AI Mentor Adaptif", "Cyber Threat Simulation Engine", "Natural Language Processing", "Gamification"]
-    },
-    {
-      id: "koptrust-ai",
-      title: "KopTrust AI",
-      imageName: "koptrustai.png",
-      yearAccomplished: "2026",
-      role: "AI Engineer and Developer",
-      projectType: "Agentic AI Superapp for the Cooperatives Transparency Challenge",
-      category: "nlp-llm",
-      categoryLabel: "NLP/LLM and Speech Recognition",
-      highlightMetric: {
-        value: "Dual-Agentic AI",
-        label: "LLM with RAG and Speech-to-Text Agents"
-      },
-      description:
-        "Digital platform developed for the Kemenkop Hackathon 2026 (Digital Cooperatives Expo), addressing the national issue of low public participation and transparency in Indonesian cooperatives. The platform simplifies complex balance sheets, SHU calculations, and RAT meeting minutes through a multifunctional dashboard, an intelligent Indonesian-language AI assistant, and an automated voice-based meeting transcriptor and summarizer",
-      keyResponsibilities: [
-        "Developed the client application using Flutter for responsive cross-platform deployment",
-        "Implemented agentic AI with LLM and voice transcription to demystify cooperative financial statements",
-        "Analyzed and processed nationwide cooperative databases provided by the Ministry of Cooperatives",
-        "Implemented Retrieval-Augmented Generation (RAG) to eradicate model hallucination on statutory financial figures",
-        "Formulated cost-to-value optimization strategies across DeepSeek-V4 Flash and Universal 3.5 Pro APIs",
-        "Built dual agent architecture comprising specialized Text Agent and Voice Agent",
-        "Designed a multifunctional dashboard for real-time auditability and elderly-accessible navigation"
-      ],
-      results: [
-        "Featured in Hackathon Digital Cooperatives Expo 2026 as Top 100 Finalist",
-        "Addressed core accessibility and attention problems through EDA, identifying a critical 24% vs. 76% gap in account ownership across 71,270 members nationwide",
-        "Designed for UU PDP compliance and alignment with 4 regulations (Inpres 9/2025, SE Menkop 1/2015, UU 11/2020, draft RUU Perkoperasian).",
-        "Architected a dual-agent framework (Text + Voice) to deliver accessible, multimodal user support.",
-        "Created an integrated super app bridging the digital divide for elderly cooperative members",
-        "Implemented zero hallucination RAG for strict statutory cooperative balance sheet transparency",
-      ],
-      links: {
-        github: KopTrustAI_Github,
-        pitchDeck: KopTrustAI_Link
-      },
-      technologies: ["Flutter", "LLM", "Voice Transcriptor", "Agentic AI", "RAG", "DeepSeek-V4 Flash", "Universal 3.5 Pro", "Firebase", "AssemblyAI"]
     }
   ],
   credentials: [
